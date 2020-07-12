@@ -1,0 +1,37 @@
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <script src="./js/script.js"></script>
+
+</head>
+
+<body>
+    <div class="body">
+        <div class="contend">
+            <div class="texto">
+                <label for="lred">(R) Vermelho:</label>
+                <label for="lgreen">(G) Verde:</label>
+                <label for="lblue">(B) Azul:</label>
+            </div>
+            <div class="variaveis">
+                <input type="range" id="red" name="red" min="0" max="255" value="25">
+                <input type="range" id="green" name="green" min="0" max="255" value="25">
+                <input type="range" id="blue" name="blue" min="0" max="255" value="25">
+            </div>
+            <div>
+                <input type="text" id="ired" value="25" class="valor r" disabled>
+                <input type="text" id="igreen" value="25" class="valor g" disabled>
+                <input type="text" id="iblue" value="25" class="valor b" disabled>
+            </div>
+        </div>
+        <div class="cor" id="cor"> </div>
+    </div>
+</body>
+
+</html>

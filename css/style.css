@@ -1,0 +1,32 @@
+
+.cor {
+    width: 200px;
+    height: 200px;
+    background: black;
+    border: 2px solid #ccc;
+}
+
+.contend {
+    display: flex;
+    width: 330px;
+    padding: 20px;
+    text-align: left;
+}
+
+.valor {
+    width: 36px;
+}
+
+.texto {
+    display: grid;
+    width: 290px;
+}
+
+.variaveis {
+    padding-left: 10px;
+}
+
+.body {
+    display: flow-root;
+    text-align: -webkit-center;
+}
